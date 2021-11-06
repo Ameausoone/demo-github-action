@@ -11,8 +11,5 @@ jobs:
         uses: TejasvOnly/random-rickroll@v1.0
         with:
           percentage: 100
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}'
       - name: Answer with HowDoI
         uses: ameausoone/howdoi-action@v1.x
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}'
